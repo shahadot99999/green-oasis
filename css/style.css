@@ -1,0 +1,61 @@
+/* navbar start */
+.headerButton{
+    background-color: darkcyan;
+    color: aliceblue;
+    border-radius: 2px;
+}
+.nabLink{
+    background-color: rgb(170, 236, 55);
+    font-weight: bold;
+}
+
+/* Navbar completed */
+
+/* Images slide start */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow: hidden;  */
+
+    
+    /* Prevents scrolling */
+  }
+  .image-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
+  }
+  .image-overlay img {
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;
+  }
+  .centered-content {
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .centered-content a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .btnImage{
+    background-color: rgb(82, 48, 48);
+    color: white;
+  }
+  /* Image slide End */
+
+  .btn-custom {
+    padding: 1rem 2rem; /* Adjust the padding as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+  }

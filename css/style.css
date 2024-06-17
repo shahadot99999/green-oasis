@@ -55,7 +55,19 @@ body, html {
   }
   /* Image slide End */
 
-  .btn-custom {
-    padding: 1rem 2rem; /* Adjust the padding as needed */
-    font-size: 1rem; /* Adjust the font size as needed */
+  .kelloggGarden{
+    background-color: rgb(170, 236, 55);
+  }
+  /* .............. */
+  .column-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .column-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  .column-content .btn {
+    margin-top: 10px;
   }

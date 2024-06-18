@@ -71,3 +71,7 @@ body, html {
   .column-content .btn {
     margin-top: 10px;
   }
+  /* grow gradening skill start */
+  .growGardeningSkill{
+    background-color: rgb(170, 236, 55);
+  }

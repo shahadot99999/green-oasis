@@ -75,3 +75,20 @@ body, html {
   .growGardeningSkill{
     background-color: rgb(170, 236, 55);
   }
+
+  /* grow gardening skill end */
+
+  /* Footer start */
+ 
+  .footerColor{
+    background-color: rgb(89, 101, 122);
+  }
+   .custom-link {
+    color: white;
+    text-decoration: none;
+   }
+   .custom-link1 {
+    /* color: inherit;  */
+    text-decoration: none; /* Remove underline */
+}
+  /* Footer End */
